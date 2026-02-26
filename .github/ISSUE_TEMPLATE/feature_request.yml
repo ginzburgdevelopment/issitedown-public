@@ -1,0 +1,19 @@
+name: Suggest an improvement
+description: Share an idea or feature you would like to see
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: What would you like to see?
+      description: >
+        Tell us your idea in a few sentences.
+
+        If helpful, you can include:
+        • What problem this would solve
+        • How you imagine it working
+        • Why it would be useful
+    validations:
+      required: true
