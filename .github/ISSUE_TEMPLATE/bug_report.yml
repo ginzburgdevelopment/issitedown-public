@@ -9,12 +9,12 @@ body:
     attributes:
       label: What happened?
       description: >
-        Please describe what went wrong.
+        Please describe what went wrong. <br><br>
 
-        If helpful, you can include:
-        • What you were trying to do
-        • What you expected instead
-        • How we can see the same issue
+        If helpful, you can include:<br>
+        • What you were trying to do<br>
+        • What you expected instead<br>
+        • How we can see the same issue<br>
         • Screenshots (drag them into this field)
     validations:
       required: true
